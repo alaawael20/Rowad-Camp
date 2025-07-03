@@ -1,0 +1,83 @@
+.custom-navbar {
+    background-color: #2c3e50;
+    padding: 10px 15px;
+    font-family: "Cairo", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
+  .navbar-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-brand span {
+    font-size: 1.7rem;
+    color: #f39c12;
+    margin-right: 10px;
+  }
+  
+  .custom-navbar .linkStyle {
+    color: #ecf0f1;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-navbar .linkStyle:hover {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  
+  .nav-login {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-login i {
+    margin-right: 5px;
+  }
+  
+  .nav-login span {
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .linkStyle {
+      font-size: 1rem;
+    }
+  
+    .navbar-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .custom-navbar .navbar-collapse {
+      text-align: center;
+    }
+  
+    .custom-navbar .nav-link {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 0;
+    }
+  
+    .custom-navbar .nav-login {
+      margin-top: 10px;
+    }
+  }

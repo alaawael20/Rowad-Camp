@@ -1,0 +1,68 @@
+.overview-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: "Cairo", sans-serif;
+  }
+  
+  .overview-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  
+  .overview-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .overview-text {
+    max-width: 600px;
+  }
+  
+  .overview-title {
+    font-size: 1.8rem;
+    color: #f39c12;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .overview-description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .overview-content {
+      flex-direction: column;
+      gap: 0;
+      text-align: center;
+    }
+  
+    .overview-text {
+      max-width: 100%;
+    }
+  
+    .overview-title {
+      font-size: 1.5rem;
+    }
+  
+    .overview-description {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .overview-title {
+      font-size: 1.2rem;
+    }
+  
+    .overview-description {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  
