@@ -1,12 +1,25 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 import HomePage from "./pages/home/HomePage";
+import NotFound from "./pages/notFound/NotFound";
+import Contact from "./pages/contact/Contact";
+import NavBar from "./components/navBar/navBar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div>
-      <HomePage />
-      <ScrollToTop />
-    </div>
+    <>
+      <NavBar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <ScrollToTop />
+      </BrowserRouter>
+      <Footer />
+    </>
   );
 }
 

@@ -15,15 +15,15 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="" className="linkStyle">
-                الصفحة الرئيسية
-              </Nav.Link>
-              <Nav.Link href="" className="linkStyle">
                 هيكلية المخيم
               </Nav.Link>
               <Nav.Link href="" className="linkStyle">
                 المبادرات
               </Nav.Link>
               <Nav.Link href="" className="linkStyle">
+                الشركاء والداعمون
+              </Nav.Link>
+              <Nav.Link href="/contact" className="linkStyle">
                 التواصل معنا
               </Nav.Link>
             </Nav>
