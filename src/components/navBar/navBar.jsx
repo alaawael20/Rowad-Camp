@@ -20,7 +20,7 @@ const NavBar = () => {
               <Nav.Link href="" className="linkStyle">
                 المبادرات
               </Nav.Link>
-              <Nav.Link href="" className="linkStyle">
+              <Nav.Link href="/partners-page" className="linkStyle">
                 الشركاء والداعمون
               </Nav.Link>
               <Nav.Link href="/contact" className="linkStyle">

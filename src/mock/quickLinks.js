@@ -4,5 +4,5 @@ export const quickLinks = [
   { label: "معرض الصور", href: "#gallery" },
   { label: "الأخبار", href: "#news" },
   { label: "التبرع", href: "#support" },
-  { label: "تواصل معنا", href: "#contact" },
+  { label: "تواصل معنا", href: "/contact" },
 ];

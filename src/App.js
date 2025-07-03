@@ -5,6 +5,7 @@ import NotFound from "./pages/notFound/NotFound";
 import Contact from "./pages/contact/Contact";
 import NavBar from "./components/navBar/navBar";
 import Footer from "./components/footer/Footer";
+import PartnersPage from "./pages/partnersPage/PartnersPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/partners-page" element={<PartnersPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ScrollToTop />
