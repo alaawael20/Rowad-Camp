@@ -81,12 +81,12 @@ const ContactPage = () => {
         <form ref={formRef} className="contact-form" onSubmit={sendEmail}>
           <div className="form-group">
             <label htmlFor="from_name">الاسم الكامل *</label>
-            <input id="from_name" name="from_name" type="text" required />
+            <input id="from_name" name="name" type="text" required />
           </div>
 
           <div className="form-group">
             <label htmlFor="reply_to">البريد الإلكتروني *</label>
-            <input id="reply_to" name="reply_to" type="email" required />
+            <input id="reply_to" name="email" type="email" required />
           </div>
 
           <div className="form-group">
