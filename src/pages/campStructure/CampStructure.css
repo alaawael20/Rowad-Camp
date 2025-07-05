@@ -1,0 +1,111 @@
+.camp-structure {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+  color: #222;
+}
+
+.structure-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.structure-header h2 {
+  color: #f7941e;
+  font-size: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background-color: #fff;
+  border-right: 5px solid #f7941e;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.stat-card h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.stat-card p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* الهيكل الإداري */
+.hierarchy {
+  margin: 3rem 0;
+}
+
+.hierarchy-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.node {
+  background-color: #fff;
+  border: 2px solid #f7941e;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+}
+
+.node-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* الخدمات */
+.services-section {
+  margin-bottom: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.service-box {
+  background-color: #fdf4eb;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 1px dashed #f7941e;
+}
+
+/* المرافق */
+.facilities-section {
+  margin-bottom: 3rem;
+}
+
+.facility-list {
+  list-style: none;
+  padding: 0;
+}
+
+.facility-list li {
+  margin-bottom: 0.5rem;
+  padding-right: 1.2rem;
+  position: relative;
+  font-weight: 500;
+}

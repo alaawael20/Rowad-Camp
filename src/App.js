@@ -6,6 +6,7 @@ import Contact from "./pages/contact/Contact";
 import NavBar from "./components/navBar/navBar";
 import Footer from "./components/footer/Footer";
 import PartnersPage from "./pages/partnersPage/PartnersPage";
+import CampStructure from "./pages/campStructure/CampStructure";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/partners-page" element={<PartnersPage />} />
+          <Route path="/camp-structure" element={<CampStructure />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ScrollToTop />
