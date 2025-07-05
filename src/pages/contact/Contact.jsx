@@ -53,16 +53,19 @@ const ContactPage = () => {
               <i className="fas fa-phone-alt"></i>
               <span>059-819-2488</span>
             </li>
-            <li>
+            {/* <li>
               <i className="fas fa-envelope"></i>
               <span>info@rowadcamp.org</span>
-            </li>
+            </li> */}
             <li>
               <i className="fas fa-map-marker-alt"></i>
-              <span>قطاع غزة – خان يونس</span>
+              <span>
+                قطاع غزة – خان يونس - مواصي خان يونس - وسط شارع روني صالح بجوار
+                مصلى الصابرين
+              </span>
             </li>
           </ul>
-          <div className="social-links">
+          {/* <div className="social-links">
             <a href="https://facebook.com">
               <i className="fab fa-facebook-f"></i>
             </a>
@@ -72,10 +75,9 @@ const ContactPage = () => {
             <a href="https://wa.me/970598194288">
               <i className="fab fa-whatsapp"></i>
             </a>
-          </div>
+          </div> */}
         </div>
 
-        {/* نموذج مُرسَل عبر EmailJS */}
         <form ref={formRef} className="contact-form" onSubmit={sendEmail}>
           <div className="form-group">
             <label htmlFor="from_name">الاسم الكامل *</label>

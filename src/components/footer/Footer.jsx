@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { quickLinks } from "../../mock/quickLinks";
-import { socialLinks } from "../../mock/socialLinks";
+// import { socialLinks } from "../../mock/socialLinks";
 
 const Footer = () => {
   return (
@@ -45,7 +45,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-col">
+        {/* <div className="footer-col">
           <h3 className="footer-title">تابعنا</h3>
           <div className="footer-social">
             {socialLinks.map((s, i) => (
@@ -54,7 +54,7 @@ const Footer = () => {
               </a>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="footer-bottom">
