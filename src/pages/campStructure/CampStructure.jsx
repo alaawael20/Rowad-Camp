@@ -1,11 +1,12 @@
 import React from "react";
 import "./CampStructure.css";
+import Title from "./../../components/title/Title";
 
 const CampStructure = () => {
   return (
     <div className="camp-structure">
       <header className="structure-header">
-        <h2>هيكلية المخيم</h2>
+        <Title title="هيكلية المخيم" />
         <p>
           يتكوّن مخيم رواد من بنية إدارية وتنظيمية متكاملة تشمل الأقسام
           الإدارية، التوزيع السكاني، الخدمات الأساسية، والمرافق الحيوية.

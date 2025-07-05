@@ -12,11 +12,6 @@
   margin-bottom: 2rem;
 }
 
-.structure-header h2 {
-  color: #f7941e;
-  font-size: 2rem;
-}
-
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));

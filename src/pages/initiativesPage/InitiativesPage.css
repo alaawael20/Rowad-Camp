@@ -1,0 +1,13 @@
+.initiatives-page {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+
+.page-desc {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}

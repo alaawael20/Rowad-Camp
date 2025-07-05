@@ -17,7 +17,7 @@ const NavBar = () => {
               <Nav.Link href="/camp-structure" className="linkStyle">
                 هيكلية المخيم
               </Nav.Link>
-              <Nav.Link href="" className="linkStyle">
+              <Nav.Link href="/initiatives-page" className="linkStyle">
                 المبادرات
               </Nav.Link>
               <Nav.Link href="/partners-page" className="linkStyle">

@@ -7,6 +7,7 @@ import NavBar from "./components/navBar/navBar";
 import Footer from "./components/footer/Footer";
 import PartnersPage from "./pages/partnersPage/PartnersPage";
 import CampStructure from "./pages/campStructure/CampStructure";
+import InitiativesPage from "./pages/initiativesPage/InitiativesPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/partners-page" element={<PartnersPage />} />
           <Route path="/camp-structure" element={<CampStructure />} />
+          <Route path="/initiatives-page" element={<InitiativesPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ScrollToTop />
