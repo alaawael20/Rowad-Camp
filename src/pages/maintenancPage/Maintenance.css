@@ -1,0 +1,70 @@
+.maintenance-container {
+  min-height: 100vh;
+  background-color: #fffaf4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.maintenance-content {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.maintenance-title {
+  font-size: 5rem;
+  color: #e7750d;
+  margin-bottom: 10px;
+}
+
+.maintenance-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.maintenance-message {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .maintenance-title {
+    font-size: 4rem;
+  }
+
+  .maintenance-heading {
+    font-size: 1.5rem;
+  }
+
+  .maintenance-message {
+    font-size: 1rem;
+  }
+
+  .maintenance-content {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .maintenance-title {
+    font-size: 3rem;
+  }
+
+  .maintenance-heading {
+    font-size: 1.3rem;
+  }
+
+  .maintenance-message {
+    font-size: 0.95rem;
+  }
+}

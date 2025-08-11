@@ -1,0 +1,93 @@
+.initiative-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-right: 5px solid #f7941e;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  font-family: "Cairo", sans-serif;
+}
+
+.initiative-card h3 {
+  color: #f7941e;
+  margin-top: 0;
+}
+
+.initiative-meta p {
+  margin: 4px 0;
+  color: #333;
+}
+
+.initiative-section {
+  margin-top: 1rem;
+}
+
+.initiative-section h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.initiative-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.initiative-section ul li::before {
+  content: "✔️";
+  margin-left: 0.5rem;
+  color: #f7941e;
+}
+
+.initiative-gallery h4 {
+  margin: 1rem 0 0.5rem;
+  color: #444;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-grid img,
+.media-video {
+  width: 140px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery-grid img:hover,
+.media-video:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+}
+
+.lightbox-video {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+  outline: none;
+}

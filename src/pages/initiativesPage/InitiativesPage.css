@@ -1,0 +1,26 @@
+.initiatives-page {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+
+.page-desc {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+  font-size: 1.3rem;
+}
+
+.initiatives-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .initiatives-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,12 @@
+.news-section {
+  background: #fafafa;
+  padding: 60px 20px;
+}
+
+.news-list {
+  max-width: 900px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

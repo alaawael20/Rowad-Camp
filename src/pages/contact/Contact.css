@@ -1,0 +1,138 @@
+:root {
+  --accent: #e7750d;
+  --accent-light: #f89c1c;
+  --bg: #fffaf4;
+}
+
+.contact-section {
+  background: var(--bg);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: start;
+}
+
+.contact-info h3 {
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.contact-info i {
+  color: var(--accent);
+}
+
+.contact-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.contact-logo img {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .contact-logo img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-logo img {
+    display: none;
+  }
+}
+
+.contact-form {
+  background: #fff;
+  padding: 30px 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--accent-light);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: var(--accent);
+}
+
+.sent-msg {
+  margin-top: 16px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .contact-form {
+    padding: 24px 18px;
+  }
+}
+
+.error-msg {
+  margin-top: 16px;
+  color: #dc3545;
+  font-weight: bold;
+}
