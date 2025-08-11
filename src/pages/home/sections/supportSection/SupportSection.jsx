@@ -5,7 +5,7 @@ import { supportData } from "../../../../mock/supportData";
 const SupportSection = () => {
   return (
     <section className="support-section" id="support">
-      <h2 className="support-title">طرق الدعم والتبرع</h2>
+      <h2 className="support-title">طرق الدعم</h2>
       <p className="support-subtitle">
         ساهم معنا في تحسين حياة العائلات داخل مخيم رواد، فكل دعم يُحدث فرقًا 💛
       </p>

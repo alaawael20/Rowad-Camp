@@ -49,4 +49,24 @@ export const images = [
     src: "/assets/gallery/10.jpg",
     alt: "Gallery",
   },
+  {
+    id: 11,
+    src: "/assets/gallery/11.jpg",
+    alt: "Gallery",
+  },
+  {
+    id: 12,
+    src: "/assets/gallery/12.jpg",
+    alt: "Gallery",
+  },
+  {
+    id: 13,
+    src: "/assets/gallery/clean5.jpg",
+    alt: "Gallery",
+  },
+  {
+    id: 14,
+    src: "/assets/gallery/kids6.jpg",
+    alt: "Gallery",
+  },
 ];

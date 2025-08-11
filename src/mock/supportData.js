@@ -1,10 +1,10 @@
 export const supportData = [
-  {
-    icon: "fas fa-hand-holding-heart",
-    title: "تبرع مالي",
-    description:
-      "يمكنك التبرع عبر التحويل البنكي أو المحافظ الإلكترونية المعتمدة.",
-  },
+  // {
+  //   icon: "fas fa-hand-holding-heart",
+  //   title: "تبرع مالي",
+  //   description:
+  //     "يمكنك التبرع عبر التحويل البنكي أو المحافظ الإلكترونية المعتمدة.",
+  // },
   {
     icon: "fas fa-boxes",
     title: "مساعدات عينية",

@@ -17,6 +17,18 @@ const NewsCard = ({ item }) => {
 
       {open && <p className="news-details">{item.details}</p>}
       {!open && <p className="news-excerpt">{item.excerpt}</p>}
+
+      {/* رابط خارجي */}
+      {item.link && (
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="news-link"
+        >
+          الذهاب إلى الرابط
+        </a>
+      )}
     </div>
   );
 };

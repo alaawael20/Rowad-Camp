@@ -7,7 +7,7 @@ const stats = [
   { label: "عدد الأفراد", value: 1650 },
   { label: "عدد الذكور", value: 718 },
   { label: "عدد الإناث", value: 932 },
-  { label: "عدد الخيام", value: 120 },
+  // { label: "عدد الخيام", value: 120 },
 ];
 
 const StatisticCard = ({ label, value }) => {
