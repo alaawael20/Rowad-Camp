@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import "./InitiativeCard.css";
 
-const InitiativeCard = ({ initiative }) => {
+const InitiativeCard = ({ initiative, number }) => {
   const [activeImage, setActiveImage] = useState(null);
   const [activeVideo, setActiveVideo] = useState(null);
 
   return (
     <div className="initiative-card">
-      <h3>{initiative.title}</h3>
+      <h3>
+        {number}. {initiative.title}
+      </h3>
 
       <div className="initiative-meta">
         <p>

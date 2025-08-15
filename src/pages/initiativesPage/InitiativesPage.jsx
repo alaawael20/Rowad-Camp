@@ -15,7 +15,7 @@ const InitiativesPage = () => {
 
       <div className="initiatives-grid">
         {initiatives.map((init, index) => (
-          <InitiativeCard key={index} initiative={init} />
+          <InitiativeCard key={index} initiative={init} number={index + 1} />
         ))}
       </div>
     </div>
