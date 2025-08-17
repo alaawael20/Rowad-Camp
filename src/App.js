@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 import HomePage from "./pages/home/HomePage";
 import NotFound from "./pages/notFound/NotFound";
@@ -9,8 +9,19 @@ import PartnersPage from "./pages/partnersPage/PartnersPage";
 import CampStructure from "./pages/campStructure/CampStructure";
 import InitiativesPage from "./pages/initiativesPage/InitiativesPage";
 import Maintenance from "./pages/maintenancPage/Maintenance";
+import { useEffect } from "react";
+import { initGA, logPageView } from "./analytics";
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
+  useEffect(() => {
+    logPageView(location.pathname + location.search);
+  }, [location]);
   const isUnderMaintenance = false;
 
   if (isUnderMaintenance) {
