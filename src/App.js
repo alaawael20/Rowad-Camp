@@ -12,37 +12,45 @@ import Maintenance from "./pages/maintenancPage/Maintenance";
 import { useEffect } from "react";
 import { initGA, logPageView } from "./analytics";
 
-function App() {
+function AppContent() {
   const location = useLocation();
 
   useEffect(() => {
-    initGA();
+    initGA(); // تشغيل GA عند أول تحميل
   }, []);
 
   useEffect(() => {
-    logPageView(location.pathname + location.search);
+    logPageView(location.pathname + location.search); // تسجيل أي تغيير بالصفحة
   }, [location]);
+
   const isUnderMaintenance = false;
 
   if (isUnderMaintenance) {
     return <Maintenance />;
   }
+
   return (
     <>
       <NavBar />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/partners-page" element={<PartnersPage />} />
-          <Route path="/camp-structure" element={<CampStructure />} />
-          <Route path="/initiatives-page" element={<InitiativesPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <ScrollToTop />
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/partners-page" element={<PartnersPage />} />
+        <Route path="/camp-structure" element={<CampStructure />} />
+        <Route path="/initiatives-page" element={<InitiativesPage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <ScrollToTop />
       <Footer />
     </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
   );
 }
 
