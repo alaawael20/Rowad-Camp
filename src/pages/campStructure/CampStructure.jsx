@@ -32,19 +32,19 @@ const CampStructure = () => {
         </div>
         <div className="stat-card">
           <h4>الأطفال (أقل من 18)</h4>
-          <p>500 طفل</p>
+          <p>493 طفل</p>
         </div>
         <div className="stat-card">
           <h4>كبار السن فوق 60 سنة</h4>
-          <p>50</p>
+          <p>53</p>
         </div>
         <div className="stat-card">
           <h4>ذوي الإعاقة</h4>
-          <p>15</p>
+          <p>10</p>
         </div>
         <div className="stat-card">
           <h4>عدد الأرامل والمطلقات</h4>
-          <p>10</p>
+          <p>18</p>
         </div>
       </div>
 
