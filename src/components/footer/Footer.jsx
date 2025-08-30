@@ -55,7 +55,16 @@ const Footer = () => {
 
       <div className="footer-bottom">
         © {new Date().getFullYear()} مخيم رواد – جميع الحقوق محفوظة | تم التطوير
-        بواسطة المهندس علاء الفقعاوي 💻
+        بواسطة{" "}
+        <a
+          href="https://www.instagram.com/alaaelfaqawi/"
+          className="myName"
+          target="_blank"
+          rel="noreferrer"
+        >
+          المهندس علاء الفقعاوي
+        </a>{" "}
+        💻
       </div>
     </footer>
   );
