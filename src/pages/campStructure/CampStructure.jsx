@@ -36,7 +36,7 @@ const CampStructure = () => {
         </div>
         <div className="stat-card">
           <h4>كبار السن فوق 60 سنة</h4>
-          <p>53</p>
+          <p>68</p>
         </div>
         <div className="stat-card">
           <h4>ذوي الإعاقة</h4>
@@ -44,7 +44,7 @@ const CampStructure = () => {
         </div>
         <div className="stat-card">
           <h4>عدد الأرامل والمطلقات</h4>
-          <p>18</p>
+          <p>25</p>
         </div>
       </div>
 
