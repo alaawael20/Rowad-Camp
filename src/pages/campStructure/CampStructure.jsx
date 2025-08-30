@@ -16,23 +16,23 @@ const CampStructure = () => {
       <div className="stats-grid">
         <div className="stat-card">
           <h4>عدد الأسر</h4>
-          <p>350</p>
+          <p>311</p>
         </div>
         <div className="stat-card">
           <h4>عدد الأفراد</h4>
-          <p>1,650</p>
+          <p>1,503</p>
         </div>
         <div className="stat-card">
           <h4>عدد الذكور</h4>
-          <p>718</p>
+          <p>736</p>
         </div>
         <div className="stat-card">
           <h4>عدد الإناث</h4>
-          <p>932</p>
+          <p>767</p>
         </div>
         <div className="stat-card">
           <h4>الأطفال (أقل من 18)</h4>
-          <p>493 طفل</p>
+          <p>655 طفل</p>
         </div>
         <div className="stat-card">
           <h4>كبار السن فوق 60 سنة</h4>
@@ -40,7 +40,7 @@ const CampStructure = () => {
         </div>
         <div className="stat-card">
           <h4>ذوي الإعاقة</h4>
-          <p>10</p>
+          <p>13</p>
         </div>
         <div className="stat-card">
           <h4>عدد الأرامل والمطلقات</h4>
