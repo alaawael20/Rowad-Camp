@@ -27,13 +27,4 @@ export const newsData = [
       "تدعو إدارة المخيم جميع المستفيدين إلى تحديث بياناتهم لدى وكالة الغوث عبر الرابط المخصص، وذلك لضمان استمرار الحصول على الخدمات والمساعدات.",
     link: "https://foodaid.azurewebsites.net/Login/Index?ReturnUrl=%2f",
   },
-  {
-    id: 4,
-    title: "تحديث بيانات طلبة الثانوية العامة",
-    date: "09/08/2025",
-    excerpt: "رابط مخصص لتحديث بيانات طلبة الثانوية العامة.",
-    details:
-      "تعلن إدارة المخيم عن توفر رابط مخصص لتحديث بيانات طلبة الثانوية العامة بهدف تسهيل إجراءاتهم وضمان حصولهم على الخدمات اللازمة.",
-    link: "https://psgereg.pna.ps/faces/pages/Login.jspx;jsessionid=LVdyyZwcCnQP8VkQjcHvjFvHMgmkxNdTp0yJfLcvygrYqvQZDNGB!-1919311083?_adf.ctrl-state=16hboxquic_1&_afrLoop=776612110170999&_afrWindowMode=0&_afrWindowId=null",
-  },
 ];
