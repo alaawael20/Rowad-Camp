@@ -3,10 +3,10 @@ import "./StatisticsSection.css";
 import Title from "../../../../components/title/Title";
 
 const stats = [
-  { label: "عدد العائلات", value: 350 },
-  { label: "عدد الأفراد", value: 1650 },
-  { label: "عدد الذكور", value: 718 },
-  { label: "عدد الإناث", value: 932 },
+  { label: "عدد العائلات", value: 320 },
+  { label: "عدد الأفراد", value: 1534 },
+  { label: "عدد الذكور", value: 752 },
+  { label: "عدد الإناث", value: 782 },
   // { label: "عدد الخيام", value: 120 },
 ];
 

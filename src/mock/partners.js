@@ -78,15 +78,19 @@ export const partners = [
   },
   {
     id: 13,
+    name: "مؤسسة ساعد للتنمية البشرية",
+    logo: "/assets/partners/saiid.png",
+    description: "ساهمت في دعم نازحي المخيم بالمساعدات النقدية",
+  },
+  {
+    id: 14,
     name: "مرام جودة",
-    // logo: "/assets/partners/bosna.jpeg",
     description:
       "ساهمت في دعم المخيم في تكية طعام ومبادرة أحذية للأطفال ومبادرة حلاقة شعر للأطفال",
   },
   {
-    id: 14,
+    id: 15,
     name: "محمد الخزندار",
-    // logo: "/assets/partners/bosna.jpeg",
     description:
       "ساهم في دعم المخيم من خلال توزيع ربطات الخبز على الأسر النازحة",
   },
