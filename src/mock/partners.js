@@ -1,6 +1,12 @@
 export const partners = [
   {
     id: 1,
+    name: "المركز السعودي للثقافة والتراث",
+    logo: "/assets/partners/Saudi-Center.png",
+    description: "قامت يتوزيع حقائب كرامة خاصة بالنساء داخل المخيم",
+  },
+  {
+    id: 1,
     name: "الإغاثة الدولية الأولية PUI",
     logo: "/assets/partners/pui.png",
     description:
