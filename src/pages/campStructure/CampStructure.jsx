@@ -16,47 +16,49 @@ const CampStructure = () => {
       <div className="stats-grid">
         <div className="stat-card">
           <h4>عدد الأسر</h4>
-          <p>320</p>
+          <p>337</p>
         </div>
         <div className="stat-card">
           <h4>عدد الأفراد</h4>
-          <p>1,534</p>
+          <p>1,592</p>
         </div>
         <div className="stat-card">
           <h4>عدد الذكور</h4>
-          <p>752</p>
+          <p>784</p>
         </div>
         <div className="stat-card">
           <h4>عدد الإناث</h4>
-          <p>782</p>
+          <p>808</p>
         </div>
         <div className="stat-card">
           <h4>الأطفال (أقل من 18)</h4>
-          <p>711 طفل</p>
+          <p>712 طفل</p>
         </div>
         <div className="stat-card">
           <h4>كبار السن فوق 60 سنة</h4>
-          <p>85</p>
+          <p>79</p>
         </div>
         <div className="stat-card">
           <h4>ذوي الإعاقة</h4>
-          <p>13</p>
+          <p>27</p>
         </div>
         <div className="stat-card">
           <h4>عدد الأرامل والمطلقات</h4>
-          <p>27</p>
+          <p>40</p>
         </div>
       </div>
 
       <section className="hierarchy">
-        <h3>الهيكل الإداري</h3>
+        <Title title="لهيكل الإداري" />
         <div className="hierarchy-tree">
-          <div className="node root">إدارة المخيم</div>
+          <div className="node root">اللجنة الإدارية والتنظيمية</div>
           <div className="node-group">
-            <div className="node">لجنة التواصل الخارجي</div>
-            <div className="node">اللجنة المختصة بشؤون المرأة</div>
-            <div className="node">لجنة التطوع والاسناد</div>
-            <div className="node">الدعم اللوجيستي</div>
+            <div className="node">لجنة المرأة</div>
+            <div className="node">اللجنة الإجتماعية والدعم النفسي</div>
+            <div className="node">لجنة ذوي الإعاقة والإحتياجات الخاصة</div>
+            <div className="node">لجنة المياه جوالصرف الصحي</div>
+            <div className="node">لجنة حل النزاعات</div>
+            <div className="node">لجنة التوثيق والإعلام</div>
           </div>
         </div>
       </section>
@@ -89,7 +91,7 @@ const CampStructure = () => {
                 </td>
               </tr>
               <tr>
-                <td>أ. علاء الدين المدهون</td>
+                <td>أ. سحر عبد الوهاب اللحام</td>
                 <td>مسؤول لجنة الطوارئ (عضو مجلس إدارة)</td>
                 <td>
                   متابعة حالات الطوارئ واتخاذ الإجراءات السريعة عند الحاجة.
@@ -126,7 +128,7 @@ const CampStructure = () => {
 
       {/* الخدمات المتوفرة */}
       <section className="services-section">
-        <h3>الخدمات داخل المخيم</h3>
+        <Title title="الخدمات داخل المخيم" />
         <div className="services-grid">
           <div className="service-box">مركز اجتماعي</div>
           <div className="service-box">حلقات تحفيظ القرآن </div>

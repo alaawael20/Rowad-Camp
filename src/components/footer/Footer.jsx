@@ -36,7 +36,9 @@ const Footer = () => {
             </li>
             <li>
               <i className="fas fa-map-marker-alt"></i>
-              <span>قطاع غزة – خان يونس - مواصي خان يونس</span>
+              <span>
+                قطاع غزة – خان يونس - مواصي خان يونس - وسط شارع روني صالح
+              </span>
             </li>
           </ul>
         </div>

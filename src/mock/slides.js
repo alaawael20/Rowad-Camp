@@ -1,11 +1,11 @@
 export const slides = [
-  {
-    id: 1,
-    src: "/assets/slider/slider4.png",
-    alt: "System Slide",
-    title: "مخيم رواد بالشراكة مع جمعية الخريجات",
-    text: "تم تنصيب نظام محوسب لإدارة مراكز الإيواء في قطاع غزة",
-  },
+  // {
+  //   id: 1,
+  //   src: "/assets/slider/slider4.png",
+  //   alt: "System Slide",
+  //   title: "مخيم رواد بالشراكة مع جمعية الخريجات",
+  //   text: "تم تنصيب نظام محوسب لإدارة مراكز الإيواء في قطاع غزة",
+  // },
   {
     id: 2,
     src: "/assets/slider/slider1.jpg",
